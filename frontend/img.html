@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File sharing</title>
+    <link rel="stylesheet" href="img.css">
+</head>
+<body>
+    <div class="copyalert">
+        Copied to clipboard
+    </div>
+    <div class="upload-container">
+        <div class="drop-Zone"  id="dropzone">
+            <div class="icon-container">
+                <img src="19ac9c9b9ff7376fc86b45fee366a1a2-file-checklist-icon-by-vexels.png" alt="?" draggable="false" class="center">
+                <img src="19ac9c9b9ff7376fc86b45fee366a1a2-file-checklist-icon-by-vexels.png" alt="?" draggable="false" class="left">
+                <img src="19ac9c9b9ff7376fc86b45fee366a1a2-file-checklist-icon-by-vexels.png" alt="?" draggable="false" class="right">
+            </div>
+            <input type="file" id="fileInput">
+            
+            <div class="title">Drag and drop your Files here or <span class="browseBtn" id="browseBtn">browse</span></div>
+        </div>
+        <div class="progress-cont">
+            <div class="bg-progress"></div>
+        </div>
+        <div class="share-cont">
+            <p class = "expire">Link expires in 24 hours</p>
+            <div class="input-cont">
+                <input type="text" id= "fileURL" readonly >
+                <img src="content_copy-black-18dp (1).svg" alt="copy here" class="copyicon" draggable="false" id="copybtn"/>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-image"></div>
+    <script src="img.js"></script>
+
+
+</body>
+</html>
+
+
+
