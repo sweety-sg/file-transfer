@@ -19,6 +19,19 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+.logo{
+    position: absolute;
+    top: 1px;
+    left: 8px;
+    height: 60px;
+    width: 160px;
+    align-items: stretch;
+}
+hr.tophr{
+    border-top: 1px solid;
+    color: var(--border-color2);
+}
 body,
 .upload-container,.drop-Zone {
     display: flex;
